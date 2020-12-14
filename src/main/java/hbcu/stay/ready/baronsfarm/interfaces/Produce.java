@@ -3,19 +3,35 @@ package hbcu.stay.ready.baronsfarm.interfaces;
 import hbcu.stay.ready.baronsfarm.classes.Edible;
 import hbcu.stay.ready.baronsfarm.classes.EdibleEgg;
 
-public interface Produce {
+public abstract class Produce implements Edible {
 
-
-   String yield = null;
-   String harvest = null;
-   String fertilize = null;
-   boolean hasBeenHarvested = false;
+   private Edible produce;
    boolean hasBeenFertilized = false;
 
-   EdibleEgg eat();
-   Edible yield();
-   void harvest();
-   void fertilize();
+   public Produce(Edible edible){
+      this.produce = edible;
+   }
+   public Edible yield() {
+      if (hasBeenFertilized) {
+         return produce.yield();
+      }
+      return null;
+   }
 
-   void getFertilize();
+   public Edible getProduce() {
+      return produce;
+   }
+
+   public void setProduce(Edible produce) {
+      this.produce = produce;
+   }
+   public Produce(){}
+
+   public boolean hasBeenFertilized() {
+      return hasBeenFertilized;
+   }
+
+   public void setHasBeenFertilized(boolean hasBeenFertilized) {
+      this.hasBeenFertilized = hasBeenFertilized;
+   }
 }

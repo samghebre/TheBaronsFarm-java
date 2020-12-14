@@ -1,30 +1,21 @@
 package hbcu.stay.ready.baronsfarm.classes;
 
+import hbcu.stay.ready.baronsfarm.abstracts.Crop;
+
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Collections;
 
 public class Field extends Farm {
+    ArrayList<CropRow> cropRows;
     public Field() {
 
-    }
-    ArrayList<CropRow> cropRowArrayList;
-    private CropRow cropRow = new CropRow();
-
-    public Field(String cropRow, Object crop){
-        super(cropRow,crop);
-
-        cropRowArrayList = new ArrayList<>();
-    }
-    public void addCropRow(CropRow cropRow){
-        Collections.addAll(cropRowArrayList,cropRow);
+        ArrayList<Crop> tomatoPlants = new ArrayList<>();
+        ArrayList<Crop> cornStalks = new ArrayList<Tomato>();
+        CropRow tomatoRow = new CropRow(tomatoPlants);
+      cropRows = new ArrayList<>();
+      cropRows.add( new CropRow(new ArrayList<>()));
 
     }
 
-    public void getCropRow(){
-        cropRowArrayList.toString();
-    }
-
-    public void addCropRow(CropRow cropRow, CropRow cropRow1, CropRow cropRow2) {
-        Collections.addAll(cropRowArrayList,cropRow);
-    }
 }

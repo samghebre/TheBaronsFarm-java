@@ -25,7 +25,7 @@ boolean fertilize = true;
 
     @Overload
     public void fly(CropRow field) {
-        field.fertilize();
+        field.fertilize(null);
     }
 
 

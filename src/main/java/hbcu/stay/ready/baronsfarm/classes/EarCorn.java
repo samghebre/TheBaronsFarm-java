@@ -1,4 +1,6 @@
 package hbcu.stay.ready.baronsfarm.classes;
 
-public class EarCorn extends Edible {
+import hbcu.stay.ready.baronsfarm.interfaces.Produce;
+
+public class EarCorn extends Produce {
 }
