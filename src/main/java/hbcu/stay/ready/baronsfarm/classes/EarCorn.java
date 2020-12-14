@@ -1,6 +1,9 @@
 package hbcu.stay.ready.baronsfarm.classes;
 
-import hbcu.stay.ready.baronsfarm.interfaces.Produce;
+import hbcu.stay.ready.baronsfarm.abstracts.Produce;
 
 public class EarCorn extends Produce {
+    public EarCorn(){
+        super();
+    }
 }

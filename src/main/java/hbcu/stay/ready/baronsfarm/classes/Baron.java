@@ -12,14 +12,8 @@ public class Baron extends Farmer{
         return instance;
     }
 
-    @Override
-    public String eat(Edible edible) {
-        return super.eat(edible);
-    }
-    public CropDuster ride(CropDuster cropDuster){
-        return cropDuster;
-
+    public String eatBaron(Edible edible) {
+        return "Good food!";
     }
 
-    public
 }

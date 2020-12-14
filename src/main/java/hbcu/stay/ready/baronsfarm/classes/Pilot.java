@@ -71,14 +71,16 @@ public class  Pilot extends Person implements NoiseMaker, Rider, AirCraft {
         return dismount;
     }
 
-
-    @Override
     public String makeNoise() {
         return "Wooosh!";
     }
 
-    @Override
+
     public int ride() {
         return 0;
+    }
+
+    protected String eatBaroness(Edible edible) {
+        return "Yum! eggs and sweet corn";
     }
 }

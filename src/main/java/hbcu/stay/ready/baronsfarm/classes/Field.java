@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Field extends Farm {
     ArrayList<CropRow> cropRows;
-    public Field() {
+    public Field(CornStalk cornStalk) {
 
         ArrayList<CornStalk> cornStalks = new ArrayList<>();
         cornStalks.add(new CornStalk(new EarCorn()));
@@ -15,10 +15,21 @@ public class Field extends Farm {
       CropRow<TomatoPlant> tomatoRow = new CropRow<>(tomatoPlants);
 
       cropRows = new ArrayList<>();
+
       cropRows.add(cornRow);
       cropRows.add(tomatoRow);
 
 
     }
+    public Field( TomatoPlant tomatoPlant){
 
+    }
+
+    public ArrayList<CropRow> getCropRows() {
+        return cropRows;
+    }
+
+    public ArrayList<CropRow> setCropRows() {
+        return cropRows;
+    }
 }

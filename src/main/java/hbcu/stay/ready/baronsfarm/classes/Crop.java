@@ -1,13 +1,14 @@
 package hbcu.stay.ready.baronsfarm.classes;
 
-import hbcu.stay.ready.baronsfarm.classes.*;
-import hbcu.stay.ready.baronsfarm.interfaces.Produce;
-
-import java.util.LinkedList;
+import hbcu.stay.ready.baronsfarm.abstracts.Produce;
 
 public class Crop<T extends Produce>   {
     Produce produce;
     boolean hasBeenHarvested ;
+
+    protected static void setHasBeenFertilized(boolean b) {
+
+    }
 
     public Edible yield(){
         if(!hasBeenHarvested && this.produce.hasBeenFertilized()){

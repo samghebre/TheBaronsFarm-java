@@ -24,7 +24,7 @@ public class CropDusterTest {
         Assert.assertEquals(0,cropDuster.ride());
     }
 
-    @Test(expected = StackOverflowError.class)
+    @Test
     public void fertilizeTest(){
         CropDuster cropDuster = new CropDuster();
         CropRow cropRow = new CropRow();
