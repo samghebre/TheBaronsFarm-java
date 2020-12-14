@@ -1,6 +1,7 @@
 package hbcu.stay.ready.baronsfarm.classes;
 
 import hbcu.stay.ready.baronsfarm.interfaces.AirCraft;
+import hbcu.stay.ready.baronsfarm.interfaces.Edible;
 import hbcu.stay.ready.baronsfarm.interfaces.NoiseMaker;
 import hbcu.stay.ready.baronsfarm.interfaces.Rider;
 

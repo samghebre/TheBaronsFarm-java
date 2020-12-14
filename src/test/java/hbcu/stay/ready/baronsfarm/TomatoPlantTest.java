@@ -1,8 +1,6 @@
 package hbcu.stay.ready.baronsfarm;
 
-import hbcu.stay.ready.baronsfarm.abstracts.Produce;
-import hbcu.stay.ready.baronsfarm.classes.Crop;
-import hbcu.stay.ready.baronsfarm.classes.Edible;
+import hbcu.stay.ready.baronsfarm.interfaces.Edible;
 import hbcu.stay.ready.baronsfarm.classes.Tomato;
 import hbcu.stay.ready.baronsfarm.classes.TomatoPlant;
 import org.junit.Assert;

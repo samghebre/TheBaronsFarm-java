@@ -2,7 +2,7 @@ package hbcu.stay.ready.baronsfarm;
 
 import hbcu.stay.ready.baronsfarm.classes.CornStalk;
 import hbcu.stay.ready.baronsfarm.classes.EarCorn;
-import hbcu.stay.ready.baronsfarm.classes.Edible;
+import hbcu.stay.ready.baronsfarm.interfaces.Edible;
 import org.junit.Assert;
 import org.junit.Test;
 

@@ -1,6 +1,7 @@
 package hbcu.stay.ready.baronsfarm.classes;
 
 import hbcu.stay.ready.baronsfarm.abstracts.Animal;
+import hbcu.stay.ready.baronsfarm.interfaces.Edible;
 import hbcu.stay.ready.baronsfarm.interfaces.NoiseMaker;
 import hbcu.stay.ready.baronsfarm.interfaces.Rideable;
 

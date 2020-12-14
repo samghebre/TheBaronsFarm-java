@@ -1,7 +1,5 @@
 package hbcu.stay.ready.baronsfarm.classes;
 
-import java.text.Format;
-import java.util.ArrayList;
 import java.util.LinkedList;
 
 public class Farm {
@@ -83,16 +81,17 @@ public class Farm {
     }
 
     public Farm(String cropRow, Object crop) {
-
-    }
-
-
-    public void setFertilize(boolean fertilize) {
-        this.fertilize = fertilize;
-    }
-
-    public void setCrop(Object crop) {
+        this.cropRow = "Five cropRows of Baron's Farm";
         this.crop = crop;
+    }
+
+    public LinkedList<String> getStable1List() {
+        return stable1List;
+    }
+
+    public LinkedList<String> setStable1List(LinkedList<String> stable1List) {
+        this.stable1List = stable1List;
+        return stable1List;
     }
 
     public LinkedList<String> getChickenCoop1List() {
@@ -103,64 +102,6 @@ public class Farm {
         this.chickenCoop1List = chickenCoop1List;
     }
 
-    public LinkedList<String> getChickenCoop2List() {
-        return chickenCoop2List;
-    }
-    public void setChickenCoop2List(LinkedList<String> chickenCoop2List) {
-        this.chickenCoop2List = chickenCoop2List;
-    }
-
-    public LinkedList<String> getStable1List() {
-        return stable1List;
-    }
-
-    public LinkedList<String> setStable1List() {
-        this.stable1List = stable1List;
-        return stable1List;
-    }
-
-    public LinkedList<String> getStable2List() {
-        return stable2List;
-    }
-
-    public LinkedList<String> setStable2List() {
-        this.stable2List = stable2List;
-        return stable2List;
-    }
-
-    public LinkedList<String> getStable3List() {
-        return stable3List;
-    }
-
-    public LinkedList<String> setStable3List() {
-        this.stable3List = stable3List;
-        return stable3List;
-    }
-
-    public LinkedList<String> getChickenCoop3List() {
-        return chickenCoop3List;
-    }
-
-    public void setChickenCoop3List(LinkedList<String> chickenCoop3List) {
-        this.chickenCoop3List = chickenCoop3List;
-    }
-
-    public LinkedList<String> getChickenCoop4List() {
-        return chickenCoop4List;
-    }
-
-    public void setChickenCoop4List(LinkedList<String> chickenCoop4List) {
-        this.chickenCoop4List = chickenCoop4List;
-    }
-
-    public String getFieldList() {
-        return cropRow;
-    }
-
-    public void setFieldList(LinkedList<String> fieldList) {
-        this.fieldList = fieldList;
-    }
-
     public LinkedList<String> getFarmHouse1List() {
         return farmHouse1List;
     }
@@ -169,19 +110,110 @@ public class Farm {
         this.farmHouse1List = farmHouse1List;
     }
 
-    public LinkedList<String> getFarmHouse2List() {
-        return farmHouse2List;
+    public Object cropRow() {
+        return cropRow.toString();
     }
 
-    public void setFarmHouse2List(LinkedList<String> farmHouse2List) {
-        this.farmHouse2List = farmHouse2List;
+    public String toString(Object cropRow) {
+        return "";
     }
 
-    public ArrayList<Format.Field> fieldList() {
-        return fieldList();
-    }
-
-    public boolean operate() {
+    //    public void setFertilize(boolean fertilize) {
+//        this.fertilize = fertilize;
+//    }
+//
+//    public void setCrop(Object crop) {
+//        this.crop = crop;
+//    }
+//
+//    public LinkedList<String> getChickenCoop1List() {
+//        return chickenCoop1List;
+//    }
+//
+//    public void setChickenCoop1List(LinkedList<String> chickenCoop1List) {
+//        this.chickenCoop1List = chickenCoop1List;
+//    }
+//
+//    public LinkedList<String> getChickenCoop2List() {
+//        return chickenCoop2List;
+//    }
+//    public void setChickenCoop2List(LinkedList<String> chickenCoop2List) {
+//        this.chickenCoop2List = chickenCoop2List;
+//    }
+//
+//    public LinkedList<String> getStable1List() {
+//        return stable1List;
+//    }
+//
+//    public LinkedList<String> setStable1List() {
+//        this.stable1List = stable1List;
+//        return stable1List;
+//    }
+//
+//    public LinkedList<String> getStable2List() {
+//        return stable2List;
+//    }
+//
+//    public LinkedList<String> setStable2List() {
+//        this.stable2List = stable2List;
+//        return stable2List;
+//    }
+//
+//    public LinkedList<String> getStable3List() {
+//        return stable3List;
+//    }
+//
+//    public LinkedList<String> setStable3List() {
+//        this.stable3List = stable3List;
+//        return stable3List;
+//    }
+//
+//    public LinkedList<String> getChickenCoop3List() {
+//        return chickenCoop3List;
+//    }
+//
+//    public void setChickenCoop3List(LinkedList<String> chickenCoop3List) {
+//        this.chickenCoop3List = chickenCoop3List;
+//    }
+//
+//    public LinkedList<String> getChickenCoop4List() {
+//        return chickenCoop4List;
+//    }
+//
+//    public void setChickenCoop4List(LinkedList<String> chickenCoop4List) {
+//        this.chickenCoop4List = chickenCoop4List;
+//    }
+//
+//    public String getFieldList() {
+//        return cropRow;
+//    }
+//
+//    public void setFieldList(LinkedList<String> fieldList) {
+//        this.fieldList = fieldList;
+//    }
+//
+//    public LinkedList<String> getFarmHouse1List() {
+//        return farmHouse1List;
+//    }
+//
+//    public void setFarmHouse1List(LinkedList<String> farmHouse1List) {
+//        this.farmHouse1List = farmHouse1List;
+//    }
+//
+//    public LinkedList<String> getFarmHouse2List() {
+//        return farmHouse2List;
+//    }
+//
+//    public void setFarmHouse2List(LinkedList<String> farmHouse2List) {
+//        this.farmHouse2List = farmHouse2List;
+//    }
+//
+//    public ArrayList<Format.Field> fieldList() {
+//        return fieldList();
+//    }
+//
+  public boolean operate() {
         return false;
     }
+
 }

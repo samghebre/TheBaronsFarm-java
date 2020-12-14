@@ -1,7 +1,6 @@
 package hbcu.stay.ready.baronsfarm.abstracts;
 
-import hbcu.stay.ready.baronsfarm.classes.Edible;
-import hbcu.stay.ready.baronsfarm.classes.EdibleEgg;
+import hbcu.stay.ready.baronsfarm.interfaces.Edible;
 
 public abstract class Produce implements Edible {
 

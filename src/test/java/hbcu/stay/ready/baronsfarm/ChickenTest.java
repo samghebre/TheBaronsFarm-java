@@ -1,6 +1,5 @@
 package hbcu.stay.ready.baronsfarm;
 
-import hbcu.stay.ready.baronsfarm.classes.Edible;
 import hbcu.stay.ready.baronsfarm.classes.Chicken;
 import hbcu.stay.ready.baronsfarm.classes.EdibleEgg;
 import org.junit.Assert;

@@ -6,4 +6,8 @@ public class EarCorn extends Produce {
     public EarCorn(){
         super();
     }
+
+    public EarCorn(EarCorn earCorn) {
+
+    }
 }

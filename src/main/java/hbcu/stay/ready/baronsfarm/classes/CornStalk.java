@@ -1,5 +1,7 @@
 package hbcu.stay.ready.baronsfarm.classes;
 
+import hbcu.stay.ready.baronsfarm.interfaces.Edible;
+
 public class CornStalk extends Crop<EarCorn> {
 
     public CornStalk(EarCorn produce) {

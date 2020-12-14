@@ -2,6 +2,7 @@ package hbcu.stay.ready.baronsfarm.classes;
 
 import hbcu.stay.ready.baronsfarm.abstracts.Animal;
 import hbcu.stay.ready.baronsfarm.interfaces.Eater;
+import hbcu.stay.ready.baronsfarm.interfaces.Edible;
 
 public class Chicken extends Animal implements Eater {
 

@@ -1,5 +1,7 @@
 package hbcu.stay.ready.baronsfarm.classes;
 
+import hbcu.stay.ready.baronsfarm.interfaces.Edible;
+
 public class TomatoPlant extends Crop<Tomato> {
 
     public TomatoPlant(Tomato produce) {
