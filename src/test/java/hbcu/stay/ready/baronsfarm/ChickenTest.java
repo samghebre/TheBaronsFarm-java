@@ -25,7 +25,7 @@ public class ChickenTest {
 
         Assert.assertFalse(actual);
     }
-    @Test(expected = StackOverflowError.class)
+    @Test
     public void eatTest(){
         Chicken chicken = new Chicken();
         EdibleEgg expected = new EdibleEgg();

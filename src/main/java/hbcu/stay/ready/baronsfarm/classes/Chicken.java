@@ -18,15 +18,14 @@ public class Chicken extends Animal implements Eater {
     }
 
 
-
     public EdibleEgg yield() {
         return edibleEgg;
     }
 
 
-    public void harvest() {
-
-    }
+//    public void harvest() {
+//
+//    }
 
     public void fertilize() {
         this.hasBeenFertilized = true;
@@ -39,9 +38,9 @@ public class Chicken extends Animal implements Eater {
     }
 
 
-    public void getFertilize() {
-
-    }
+//    public void getFertilize() {
+//
+//    }
 
 
     @Override
