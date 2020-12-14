@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
 
 public class FieldTest {
+
     @Test
     public void CropRowGetCornRowTest(){
         Field field = new Field(new CornStalk(new EarCorn()));

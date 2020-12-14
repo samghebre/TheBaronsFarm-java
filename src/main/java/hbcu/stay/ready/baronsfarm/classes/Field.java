@@ -19,7 +19,6 @@ public class Field extends Farm {
       cropRows.add(cornRow);
       cropRows.add(tomatoRow);
 
-
     }
     public Field( TomatoPlant tomatoPlant){
 
