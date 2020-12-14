@@ -7,6 +7,7 @@ public abstract class Produce implements Edible {
 
    private Edible produce;
    boolean hasBeenFertilized = false;
+   boolean hasBeenHarvested = false;
 
    public Produce(Edible edible){
       this.produce = edible;
@@ -33,5 +34,9 @@ public abstract class Produce implements Edible {
 
    public void setHasBeenFertilized(boolean hasBeenFertilized) {
       this.hasBeenFertilized = hasBeenFertilized;
+   }
+
+   public void setHasBeenHarvested(boolean hasBeenHarvested) {
+      this.hasBeenHarvested = hasBeenHarvested;
    }
 }

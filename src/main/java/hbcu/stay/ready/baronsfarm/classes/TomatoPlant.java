@@ -13,4 +13,15 @@ public class TomatoPlant extends Crop<Tomato> {
         return false;
     }
 
+    public boolean hasBeenFertilized(){
+        return false;
+    }
+    public Edible tomatoYield(Tomato tomato){
+        boolean hasBeenFertilized = false;
+        if (hasBeenFertilized && hasBeenHarvested) {
+        }
+        return tomato;
+    }
 }
+
+
