@@ -51,6 +51,15 @@ public class BaronTest {
     }
 
     @Test
+    public void TestBaronSundayPlanting(){
+        int expected = 3;
+        Baron baron = Baron.getInstance();
+        int actual = Baron.baronPlantingSunday();
+
+        Assert.assertEquals(expected,actual);
+    }
+
+    @Test
     public void TestBaronHarvestTuesday(){
         String expected = "It is Tuesday time to harvest some  and corn";
         Baron baron = Baron.getInstance();

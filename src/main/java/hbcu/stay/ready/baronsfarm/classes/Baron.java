@@ -67,5 +67,13 @@ public class Baron extends Farmer{
         return baronFeedHorse;
     }
 
+    public static int baronPlantingSunday(){
+        int numCropRowsToPlant = 3;
+        int currentCropRowToPlant = 0;
+        while(numCropRowsToPlant != currentCropRowToPlant){
+            currentCropRowToPlant += numCropRowsToPlant;
+        }
+        return currentCropRowToPlant;
+    }
 
 }
