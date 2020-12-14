@@ -1,6 +1,8 @@
 package hbcu.stay.ready.baronsfarm.interfaces;
 
 
-public interface Botanist {
+import hbcu.stay.ready.baronsfarm.classes.Crop;
 
+public interface Botanist {
+public void plant(Crop);
 }

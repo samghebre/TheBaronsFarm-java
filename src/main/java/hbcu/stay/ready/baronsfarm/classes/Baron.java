@@ -1,7 +1,5 @@
 package hbcu.stay.ready.baronsfarm.classes;
 
-import hbcu.stay.ready.baronsfarm.abstracts.Crop;
-
 public class Baron extends Farmer{
     private static Baron instance;
     private Baron(String name, String noise, long id) {
@@ -22,4 +20,6 @@ public class Baron extends Farmer{
         return cropDuster;
 
     }
+
+    public
 }

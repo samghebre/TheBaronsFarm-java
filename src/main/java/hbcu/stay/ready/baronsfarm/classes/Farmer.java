@@ -21,4 +21,9 @@ public class Farmer extends Person implements Rider, Botanist, Eater, NoiseMaker
     public String eat(Edible edible) {
         return "Yum yum!";
     }
+
+
+    public void plant() {
+        return
+    }
 }
