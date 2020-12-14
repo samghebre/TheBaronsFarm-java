@@ -10,26 +10,18 @@ import org.junit.Test;
 
 public class TomatoPlantTest {
 
-
-
     @Test
-    public void TestHasBeenFertilized(){
+    public void TestHasBeenFertilizedTomato(){
         Tomato tomato = new Tomato();
         TomatoPlant tomatoPlant = new TomatoPlant(tomato);
         boolean expected = true;
         boolean actual = tomatoPlant.hasBeenFertilized();
 
         Assert.assertFalse(actual);
-
     }
 
     @Test
-    public void fertilize() {
-
-    }
-
-    @Test
-    public void hasBeenHarvested() {
+    public void TestHasBeenHarvestedTomato() {
         Tomato tomato = new Tomato();
         TomatoPlant tomatoPlant = new TomatoPlant(tomato);
         boolean expected = true;
@@ -48,20 +40,4 @@ public class TomatoPlantTest {
         Assert.assertEquals(expected,actual);
     }
 
-//    @Test
-//    public void eatTest(){
-//    TomatoPlant tomatoPlant = new TomatoPlant();
-//    Tomato expected = new Tomato();
-//    Tomato actual = tomatoPlant.eat();
-//
-//    Assert.assertTrue(false);
-//    }
-//    @Test
-//    public void edibleTest(){
-//       TomatoPlant tomatoPlant = new TomatoPlant();
-//       String expected = "Yummy Sweet corn!";
-//       String actual = tomatoPlant.Edible();
-//
-//       Assert.assertEquals(expected, actual);
-//    }
 }
