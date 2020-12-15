@@ -25,12 +25,11 @@ public class Horse extends Animal implements NoiseMaker, Rideable {
         return 1;
     }
 
-    @Override
     public String Edible() {
         return "EarCorn";
     }
 
-    @Override
+
     public String eat(Edible edible) {
         return "Heehaw! yum tasty earCorn!";
     }
