@@ -1,8 +1,8 @@
 package hbcu.stay.ready.baronsfarm.classes;
 
-public class TuesdayFarmActivities {
+public class SaturdayFarmActivities {
 
-    public TuesdayFarmActivities(){
+    public SaturdayFarmActivities(){
 
     }
 
@@ -26,11 +26,11 @@ public class TuesdayFarmActivities {
 
     public static int baronBaronessTuesdayEggsConsumption(){
         int collectedEggs = 7;
-        int tuesdayEggsConsumed = 0;
-        while(collectedEggs != tuesdayEggsConsumed){
-            tuesdayEggsConsumed += collectedEggs;
+        int mondayEggsConsumed = 0;
+        while(collectedEggs != mondayEggsConsumed){
+            mondayEggsConsumed += collectedEggs;
         }
-        return tuesdayEggsConsumed;
+        return mondayEggsConsumed;
     }
 
     public static int baronBaronessTuesdayHorseRide(){
@@ -59,7 +59,4 @@ public class TuesdayFarmActivities {
         return tuesdayTotalFeed;
     }
 
-    public static String baronTuesdayHarvest(){
-        return "It is Tuesday let me hope on my tractor and harvest the EarCorns and Tomatoes from each CropRow";
-    }
 }
