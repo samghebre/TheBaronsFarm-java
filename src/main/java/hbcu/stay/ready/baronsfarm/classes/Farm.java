@@ -115,7 +115,7 @@ public class Farm {
     }
 
     public String toString(Object cropRow) {
-        return "";
+        return "Five cropRows of Baron's Farm";
     }
 
     //    public void setFertilize(boolean fertilize) {
@@ -216,4 +216,7 @@ public class Farm {
         return false;
     }
 
+    public LinkedList<String> stable1List() {
+        return stable1List;
+    }
 }

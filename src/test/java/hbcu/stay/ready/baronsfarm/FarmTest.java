@@ -7,6 +7,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import java.lang.reflect.Array;
+import java.util.Collections;
 import java.util.LinkedList;
 
 public class FarmTest<stable1List> {
@@ -43,8 +44,8 @@ public class FarmTest<stable1List> {
     public void TestGetHorseFromStable(){
         Farm farm = new Farm();
        LinkedList<String> stable1List = new LinkedList<>();
-       String expected = stable1List.toString();
-       LinkedList<String> actual = farm.getStable1List();
+       LinkedList<String> expected = farm.stable1List(); // I am not sure about this.
+       LinkedList<String> actual = farm.stable1List();
 
        Assert.assertEquals(expected,actual);
 
