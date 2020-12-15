@@ -8,54 +8,54 @@ public class BaronessTest {
 
     @Test
 
-    public void TestBaronessEatCorn(){
+    public void TestBaronessWeeklyEatCorn(){
         int expected = 14;
         Baroness baroness = Baroness.getInstance();
-        int actual = Baroness.baronessEatCorn();
+        int actual = Baroness.baronessWeeklyEatCorn();
 
         Assert.assertEquals(expected,actual);
     }
 
     @Test
-    public void TestBaronessEatEggs(){
+    public void TestBaronessWeeklyEatEggs(){
         int expected = 14;
         Baroness baroness = Baroness.getInstance();
-        int actual = Baroness.baronessEatEggs();
+        int actual = Baroness.baronessWeeklyEatEggs();
 
         Assert.assertEquals(expected,actual);
     }
 
     @Test
-    public void TestBaronessEatTomatoes(){
+    public void TestBaronessWeeklyEatTomatoes(){
         int expected = 7;
         Baroness baroness = Baroness.getInstance();
-        int actual = Baroness.baronessEatTomatoes();
+        int actual = Baroness.baronessWeeklyEatTomatoes();
 
         Assert.assertEquals(expected,actual);
     }
     @Test
-    public void TestBaronessFeeHorse(){
+    public void TestBaronessWeeklyFeeHorse(){
         int expected = 210;
         Baroness baroness = Baroness.getInstance();
-        int actual = Baroness.baronessFeedHorse();
+        int actual = Baroness.baronessWeeklyFeedHorse();
 
         Assert.assertEquals(expected,actual);
     }
 
     @Test
-    public void TestBaronessRideEachHorse(){
+    public void TestBaronessWeeklyRideEachHorse(){
         int expected = 70;
         Baroness baroness = Baroness.getInstance();
-        int actual = Baroness.baronessRideEachHorse();
+        int actual = Baroness.baronessWeeklyRideEachHorse();
 
         Assert.assertEquals(expected,actual);
     }
 
     @Test
-    public void TestBaronessFertilizeMonday(){
+    public void TestBaronessFertilizeOnMonday(){
         String expected = "It is Monday let me fly and fertilize the cropRows!";
         Baroness baroness = Baroness.getInstance();
-        String actual = Baroness.baronessFertilizeMonday();
+        String actual = Baroness.baronessFertilizeOnMonday();
 
         Assert.assertEquals(expected,actual);
     }

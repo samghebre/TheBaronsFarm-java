@@ -16,59 +16,55 @@ public class Baron extends Farmer{
         return instance;
     }
 
-    public static int baronEatCorn() {
-        int harvestedCorn = 1;
+    public static int baronWeeklyEatCorn() {
+        int harvestedCorn = 7;
         int consumeCorn = 0;
         while(harvestedCorn != consumeCorn ){
-            consumeCorn += harvestedCorn;
-            consumeCorn = consumeCorn *7;
+            consumeCorn += harvestedCorn * 7;
         }
         return consumeCorn;
     }
 
-    public static int baronEatEggs(){
-        int collectedEggs = 5;
+    public static int baronWeeklyEatEggs(){
+        int collectedEggs = 35;
         int consumeEggs = 0;
         while(collectedEggs != consumeEggs){
-            consumeEggs += collectedEggs;
-            consumeEggs = consumeEggs * 7;
+            consumeEggs += collectedEggs * 7;
         }
         return consumeEggs;
     }
 
-    public static int baronEatTomatoes(){
-        int harvestedTomatoes = 2;
+    public static int baronWeeklyEatTomatoes(){
+        int harvestedTomatoes = 14;
         int consumeTomatoes = 0;
         while(harvestedTomatoes != consumeTomatoes){
-            consumeTomatoes += harvestedTomatoes;
+            consumeTomatoes += harvestedTomatoes * 7;
         }
         return consumeTomatoes;
     }
-    public static String baronHarvestTuesday(){
+    public static String baronWeeklyHarvestOnTuesday(){
         return "It is Tuesday time to harvest some  and corn";
     }
 
-    public  static int baronRideEachHorse(){
+    public  static int baronWeeklyRideEachHorse(){
         int totalHorseRide = 70;
         int baronRide = 0;
         while(totalHorseRide != baronRide){
-            baronRide += totalHorseRide;
-            baronRide = baronRide * 7;
+            baronRide += totalHorseRide * 7;
         }
         return baronRide;
     }
 
-    public static int baronFeedHorse(){
+    public static int baronWeeklyFeedHorse(){
         int totalHorseFeedByBaron =  210;
         int baronFeedHorse = 0;
         while(totalHorseFeedByBaron != baronFeedHorse){
-            baronFeedHorse += totalHorseFeedByBaron;
-            baronFeedHorse = baronFeedHorse * 7;
+            baronFeedHorse += totalHorseFeedByBaron * 7;
         }
         return baronFeedHorse;
     }
 
-    public static int baronPlantingSunday(){
+    public static int baronWeeklyPlantingOnSunday(){
         int numCropRowsToPlant = 3;
         int currentCropRowToPlant = 0;
         while(numCropRowsToPlant != currentCropRowToPlant){

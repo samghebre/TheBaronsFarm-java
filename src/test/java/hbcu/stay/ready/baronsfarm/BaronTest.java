@@ -7,54 +7,54 @@ import org.junit.jupiter.api.Test;
 public class BaronTest {
 
     @Test
-    public void TestBaronEatCorn(){
-        int expected = 1;
+    public void TestBaronWeeklyEatCorn(){
+        int expected = 7;
         Baron baron = Baron.getInstance();
-        int actual = Baron.baronEatCorn();
+        int actual = Baron.baronWeeklyEatCorn();
 
         Assert.assertEquals(expected,actual);
     }
 
     @Test
-    public void TestBaronEatEggs(){
-        int expected = 5;
+    public void TestBaronWeeklyEatEggs(){
+        int expected = 35;
         Baron baron = Baron.getInstance();
-        int actual = Baron.baronEatEggs();
+        int actual = Baron.baronWeeklyEatEggs();
 
         Assert.assertEquals(expected,actual);
     }
 
     @Test
-    public void TestBaronEatTomatoes(){
-        int expected = 2;
+    public void testBaronWeeklyEatTomatoes(){
+        int expected = 14;
         Baron baron = Baron.getInstance();
-        int actual = Baron.baronEatTomatoes();
+        int actual = Baron.baronWeeklyEatTomatoes();
 
         Assert.assertEquals(expected,actual);
     }
     @Test
-    public void TestBaronFeeHorse(){
+    public void TestBaronWeeklyFeeHorse(){
         int expected = 210;
         Baron baron = Baron.getInstance();
-        int actual = Baron.baronFeedHorse();
+        int actual = Baron.baronWeeklyFeedHorse();
 
         Assert.assertEquals(expected,actual);
     }
 
     @Test
-    public void TestBaronRideEachHorse(){
+    public void TestBaronWeeklyRideEachHorse(){
         int expected = 70;
         Baron baron = Baron.getInstance();
-        int actual = Baron.baronRideEachHorse();
+        int actual = Baron.baronWeeklyRideEachHorse();
 
         Assert.assertEquals(expected,actual);
     }
 
     @Test
-    public void TestBaronSundayPlanting(){
+    public void TestBaronWeeklyOnSundayPlanting(){
         int expected = 3;
         Baron baron = Baron.getInstance();
-        int actual = Baron.baronPlantingSunday();
+        int actual = Baron.baronWeeklyPlantingOnSunday();
 
         Assert.assertEquals(expected,actual);
     }
@@ -63,6 +63,6 @@ public class BaronTest {
     public void TestBaronHarvestTuesday(){
         String expected = "It is Tuesday time to harvest some  and corn";
         Baron baron = Baron.getInstance();
-        String actual = Baron.baronHarvestTuesday();
+        String actual = Baron.baronWeeklyHarvestOnTuesday();
     }
 }

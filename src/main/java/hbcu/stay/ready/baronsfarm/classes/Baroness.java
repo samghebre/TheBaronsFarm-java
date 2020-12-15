@@ -13,11 +13,11 @@ public class Baroness extends Pilot{
         return instance;
     }
 
-    public static String baronessFertilizeMonday() {
+    public static String baronessFertilizeOnMonday() {
         return "It is Monday let me fly and fertilize the cropRows!";
     }
 
-    public static int baronessEatCorn() {
+    public static int baronessWeeklyEatCorn() {
         int harvestedCorn = 14;
         int baronessConsumeCorn = 0;
         while(harvestedCorn != baronessConsumeCorn ){
@@ -26,7 +26,7 @@ public class Baroness extends Pilot{
         return baronessConsumeCorn;
     }
 
-    public static int baronessEatEggs(){
+    public static int baronessWeeklyEatEggs(){
         int collectedEggs = 14;
         int baronessConsumeEggs = 0;
         while(collectedEggs != baronessConsumeEggs){
@@ -35,7 +35,7 @@ public class Baroness extends Pilot{
         return baronessConsumeEggs;
     }
 
-    public static int baronessEatTomatoes(){
+    public static int baronessWeeklyEatTomatoes(){
         int harvestedTomatoes = 7;
         int baronessConsumeTomatoes = 0;
         while(harvestedTomatoes != baronessConsumeTomatoes){
@@ -44,7 +44,7 @@ public class Baroness extends Pilot{
         return baronessConsumeTomatoes;
     }
 
-    public  static int baronessRideEachHorse(){
+    public  static int baronessWeeklyRideEachHorse(){
         int totalHorseRide = 70;
         int baronessRide = 0;
         while(totalHorseRide != baronessRide){
@@ -53,7 +53,7 @@ public class Baroness extends Pilot{
         return baronessRide;
     }
 
-    public static int baronessFeedHorse(){
+    public static int baronessWeeklyFeedHorse(){
         int totalHorseFeedByBaron =  210;
         int baronessFeedHorse = 0;
         while(totalHorseFeedByBaron != baronessFeedHorse){
