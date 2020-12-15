@@ -3,7 +3,11 @@ package hbcu.stay.ready.baronsfarm.classes;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Stable {
+public class Stable extends Farm {
+
+    public Stable(){
+        super();
+    }
     private ArrayList<Horse> horseList;
 
     public Stable(Horse horse1, Horse horse2, Horse horse3) {
