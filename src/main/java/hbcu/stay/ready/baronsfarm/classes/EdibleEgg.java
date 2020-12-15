@@ -12,4 +12,16 @@ public class EdibleEgg implements Edible {
     public Edible yield() {
         return null;
     }
+
+    public static boolean hasBeenFertilized(Edible edible){
+        if(!hasBeenFertilized(EdibleEgg::new)){
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+    public boolean getClass(boolean hasBeenFertilized) {
+        return false;
+    }
 }
