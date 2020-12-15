@@ -12,19 +12,26 @@ public class Farmer extends Person implements Rider, Botanist, Eater {
 
     }
 
-    @Override
+    public Farmer() {
+
+    }
+
     public Object Edible() {
         return null;
     }
 
 
     public String eat(Edible edible) {
-        return "Good food!";
+        return "Good nutritious food!";
     }
 
 
-    @Override
-    public Object plant() {
-        return null;
+    public Object plant(CropRow cropRow) {
+        return cropRow;
+    }
+
+
+    public String eat() {
+        return "Good nutritious food!";
     }
 }
