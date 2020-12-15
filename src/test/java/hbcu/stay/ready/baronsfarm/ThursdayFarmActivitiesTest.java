@@ -1,51 +1,52 @@
 package hbcu.stay.ready.baronsfarm;
 
+import hbcu.stay.ready.baronsfarm.classes.ThursdayFarmActivities;
 import hbcu.stay.ready.baronsfarm.classes.TuesdayFarmActivities;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
 public class ThursdayFarmActivitiesTest {
     @Test
-    public void testTueCornConsumed(){
-        TuesdayFarmActivities tuesdayFarmActivities = new TuesdayFarmActivities();
+    public void testThuCornConsumed(){
+        ThursdayFarmActivities thursdayFarmActivities = new ThursdayFarmActivities();
         int expected = 3;
-        int actual = tuesdayFarmActivities.baronBaronessTuesdayCornConsumption();
+        int actual = thursdayFarmActivities.baronBaronessThursdayCornConsumption();
 
         Assert.assertEquals(expected,actual);
     }
 
     @Test
-    public void testTueTomatoesConsumed(){
-        TuesdayFarmActivities tuesdayFarmActivities = new TuesdayFarmActivities();
+    public void testThuTomatoesConsumed(){
+        ThursdayFarmActivities thursdayFarmActivities = new ThursdayFarmActivities();
         int expected = 3;
-        int actual = tuesdayFarmActivities.baronBaronessTuesdayTomatoesConsumption();
+        int actual = thursdayFarmActivities.baronBaronessThursdayTomatoesConsumption();
 
         Assert.assertEquals(expected,actual);
     }
 
     @Test
-    public void testTueEggsConsumed(){
-        TuesdayFarmActivities tuesdayFarmActivities = new TuesdayFarmActivities();
+    public void testThuEggsConsumed(){
+        ThursdayFarmActivities thursdayFarmActivities = new ThursdayFarmActivities();
         int expected = 7;
-        int actual = tuesdayFarmActivities.baronBaronessTuesdayEggsConsumption();
+        int actual = thursdayFarmActivities.baronBaronessThursdayEggsConsumption();
 
         Assert.assertEquals(expected,actual);
     }
 
     @Test
-    public void testTueHorseRide(){
-        TuesdayFarmActivities tuesdayFarmActivities = new TuesdayFarmActivities();
+    public void testThuHorseRide(){
+        ThursdayFarmActivities thursdayFarmActivities = new ThursdayFarmActivities();
         int expected = 20;
-        int actual = tuesdayFarmActivities.baronBaronessTuesdayHorseRide();
+        int actual = thursdayFarmActivities.baronBaronessThursdayHorseRide();
 
         Assert.assertEquals(expected,actual);
     }
 
     @Test
-    public void testTueFeedHorse(){
-        TuesdayFarmActivities tuesdayFarmActivities = new TuesdayFarmActivities();
+    public void testThuFeedHorse(){
+        ThursdayFarmActivities thursdayFarmActivities = new ThursdayFarmActivities();
         int expected = 60;
-        int actual = tuesdayFarmActivities.baronBaronessTuesdayFeedHorses();
+        int actual = thursdayFarmActivities.baronBaronessThursdayFeedHorses();
 
         Assert.assertEquals(expected,actual);
     }

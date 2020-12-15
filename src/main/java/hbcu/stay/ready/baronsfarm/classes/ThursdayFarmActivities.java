@@ -6,57 +6,57 @@ public class ThursdayFarmActivities {
 
     }
 
-    public static int baronBaronessTuesdayCornConsumption(){
+    public static int baronBaronessThursdayCornConsumption(){
         int harvestedCorn = 3;
-        int tuesdayCornConsumed = 0;
-        while(harvestedCorn != tuesdayCornConsumed){
-            tuesdayCornConsumed += harvestedCorn;
+        int thursdayCornConsumed = 0;
+        while(harvestedCorn != thursdayCornConsumed){
+            thursdayCornConsumed += harvestedCorn;
         }
-        return tuesdayCornConsumed;
+        return thursdayCornConsumed;
     }
 
-    public static int baronBaronessTuesdayTomatoesConsumption(){
+    public static int baronBaronessThursdayTomatoesConsumption(){
         int harvestedTomatoes = 3;
-        int tuesdayTomatoesConsumed = 0;
-        while(harvestedTomatoes != tuesdayTomatoesConsumed){
-            tuesdayTomatoesConsumed += harvestedTomatoes;
+        int thursdayTomatoesConsumed = 0;
+        while(harvestedTomatoes != thursdayTomatoesConsumed){
+            thursdayTomatoesConsumed += harvestedTomatoes;
         }
-        return tuesdayTomatoesConsumed;
+        return thursdayTomatoesConsumed;
     }
 
-    public static int baronBaronessTuesdayEggsConsumption(){
+    public static int baronBaronessThursdayEggsConsumption(){
         int collectedEggs = 7;
-        int mondayEggsConsumed = 0;
-        while(collectedEggs != mondayEggsConsumed){
-            mondayEggsConsumed += collectedEggs;
+        int thursdayEggsConsumed = 0;
+        while(collectedEggs != thursdayEggsConsumed){
+            thursdayEggsConsumed += collectedEggs;
         }
-        return mondayEggsConsumed;
+        return thursdayEggsConsumed;
     }
 
-    public static int baronBaronessTuesdayHorseRide(){
+    public static int baronBaronessThursdayHorseRide(){
         int numHorsesToRide = 10;
-        int tuesdayHorseRide = 0;
-        int tuesdayTotalRide = 0;
-        while(numHorsesToRide != tuesdayHorseRide){
-            tuesdayHorseRide += numHorsesToRide;
+        int thursdayHorseRide = 0;
+        int thursdayTotalRide = 0;
+        while(numHorsesToRide != thursdayHorseRide){
+            thursdayHorseRide += numHorsesToRide;
             int bothRides = 2;
-            tuesdayTotalRide = bothRides * tuesdayHorseRide;
+            thursdayTotalRide = bothRides * thursdayHorseRide;
 
         }
-        return tuesdayTotalRide;
+        return thursdayTotalRide;
     }
 
-    public static int baronBaronessTuesdayFeedHorses() {
+    public static int baronBaronessThursdayFeedHorses() {
         int numHorseToFeed = 10;
-        int tuesdayFeedHorses = 0;
-        int tuesdayTotalFeed = 0;
-        while (numHorseToFeed != tuesdayFeedHorses) {
-            tuesdayFeedHorses += numHorseToFeed;
+        int thursdayFeedHorses = 0;
+        int thursdayTotalFeed = 0;
+        while (numHorseToFeed != thursdayFeedHorses) {
+            thursdayFeedHorses += numHorseToFeed;
             int bothFeedEarCorn = 6;
-            tuesdayTotalFeed = bothFeedEarCorn * tuesdayFeedHorses;
+            thursdayTotalFeed = bothFeedEarCorn * thursdayFeedHorses;
 
         }
-        return tuesdayTotalFeed;
+        return thursdayTotalFeed;
     }
 
 }
