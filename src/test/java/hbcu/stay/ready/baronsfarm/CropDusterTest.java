@@ -10,43 +10,46 @@ import org.junit.Test;
 public class CropDusterTest {
 
     @Test
-    public void TestMakeNoise(){
+    public void TestMakeNoise() {
         CropDuster cropDuster = new CropDuster();
         cropDuster.makeNoise();
-        Assert.assertEquals("Wooosh!",cropDuster.makeNoise());
+        Assert.assertEquals("Wooosh!", cropDuster.makeNoise());
 
 
     }
+
     @Test
-    public void TestRide(){
+    public void TestRide() {
         CropDuster cropDuster = new CropDuster();
         cropDuster.ride();
-        Assert.assertEquals(0,cropDuster.ride());
+        Assert.assertEquals(0, cropDuster.ride());
     }
 
     @Test
-    public void fertilizeTest(){
+    public void fertilizeTest() {
         CropDuster cropDuster = new CropDuster();
         CropRow cropRow = new CropRow();
         cropDuster.fly(cropRow);
 
         Assert.assertTrue(cropRow.hasBeenFertilized());
     }
+
     @Test
-    public void mountAndFlyTest(){
+    public void mountAndFlyTest() {
         CropDuster cropDuster = new CropDuster();
         long id = 0000l;
-        Pilot pilot = new Pilot("","",id);
+        Pilot pilot = new Pilot("", "", id);
         cropDuster.fly(pilot);
 
         Assert.assertTrue(pilot.isMount());
 
     }
+
     @Test
-    public void disMountFlightTest(){
+    public void disMountFlightTest() {
         CropDuster cropDuster = new CropDuster();
         long id = 0000l;
-        Pilot pilot = new Pilot("","",id);
+        Pilot pilot = new Pilot("", "", id);
         cropDuster.fly(pilot);
 
         Assert.assertTrue(pilot.isDismount());
@@ -57,9 +60,10 @@ public class CropDusterTest {
     public void operateTest(){
         CropDuster cropDuster = new CropDuster();
         Farm farm = new Farm();
-        cropDuster.operate(farm);
+        int expected = 1;
+        int actual = cropDuster.operate(farm);
 
-        Assert.assertTrue(farm.operate());
+        Assert.assertEquals(expected,actual);
     }
-
 }
+

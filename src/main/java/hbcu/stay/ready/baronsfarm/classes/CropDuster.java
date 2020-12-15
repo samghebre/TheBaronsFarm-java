@@ -39,10 +39,9 @@ boolean fertilize = true;
         return 0;
     }
 
-
     @Override
-    public void operate(Farm farm) {
-        farm.operate();
+    public int operate(Farm farm) {
+        return 1;
     }
 }
 

@@ -11,6 +11,10 @@ public class Tractor implements Rideable, NoiseMaker, FarmVehicle {
         super();
     }
 
+    public Tractor() {
+
+    }
+
     @Override
     public String makeNoise() {
         return "chug chug chug";
@@ -18,11 +22,12 @@ public class Tractor implements Rideable, NoiseMaker, FarmVehicle {
 
     @Override
     public int ride() {
-        return 0;
+        return 1;
     }
 
     @Override
-    public void operate(Farm farm) {
+    public int operate(Farm farm) {
+        return 1;
 
     }
 }
