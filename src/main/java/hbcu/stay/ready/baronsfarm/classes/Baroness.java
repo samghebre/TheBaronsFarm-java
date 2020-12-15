@@ -6,7 +6,7 @@ public class Baroness extends Pilot{
 
     private static Baroness instance =null;
 
-    private Baroness(String name, String noise, long id) {
+    public Baroness(String name, String noise, long id) {
         super(name, noise, id);
     }
     public static Baroness getInstance(){

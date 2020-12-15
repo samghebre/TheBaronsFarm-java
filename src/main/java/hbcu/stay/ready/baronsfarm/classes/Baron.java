@@ -5,11 +5,12 @@ import hbcu.stay.ready.baronsfarm.interfaces.Edible;
 public class Baron extends Farmer{
     private static Baron instance = null;
 
-    private Baron(String name, String noise, long id) {
+    public Baron(String name, String noise, long id) {
         super(name, noise, id);
 
 
     }
+
 
     public static Baron getInstance(){
         return instance;

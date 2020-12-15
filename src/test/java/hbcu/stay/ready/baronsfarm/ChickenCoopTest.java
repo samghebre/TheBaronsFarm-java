@@ -12,7 +12,7 @@ public class ChickenCoopTest {
         Assert.assertEquals(3, chickenCoop.getChickenList().size());
     }
     @Test
-    public void testAddChicke(){
+    public void testAddChicken(){
         ChickenCoop chickenCoop = new ChickenCoop(new Chicken(), new Chicken(), new Chicken());
         ChickenCoop expected = chickenCoop;
         chickenCoop.addChicken(new Chicken());

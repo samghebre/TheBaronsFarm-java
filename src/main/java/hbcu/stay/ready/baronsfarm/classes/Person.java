@@ -10,6 +10,11 @@ public class Person {
         this.noise = noise;
         this.id = id;
     }
+
+    public Person() {
+
+    }
+
     public String getName() {
         return name;
     }
