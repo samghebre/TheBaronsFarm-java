@@ -24,5 +24,4 @@ public class StableTest {
         Assert.assertEquals(3,stable.getHorseList().size());
     }
 
-
 }

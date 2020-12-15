@@ -6,7 +6,6 @@ import java.util.Collections;
 public class Stable {
     private ArrayList<Horse> horseList;
 
-
     public Stable(Horse horse1, Horse horse2, Horse horse3) {
         horseList = new ArrayList<>();
         horseList.add(horse1);
