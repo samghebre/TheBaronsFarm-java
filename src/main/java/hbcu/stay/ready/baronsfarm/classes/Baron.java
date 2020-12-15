@@ -43,7 +43,7 @@ public class Baron extends Farmer{
         }
         return consumeTomatoes;
     }
-    public static String BaronHarvestTuesday(){
+    public static String baronHarvestTuesday(){
         return "It is Tuesday time to harvest some  and corn";
     }
 

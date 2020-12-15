@@ -63,6 +63,6 @@ public class BaronTest {
     public void TestBaronHarvestTuesday(){
         String expected = "It is Tuesday time to harvest some  and corn";
         Baron baron = Baron.getInstance();
-        String actual = Baron.BaronHarvestTuesday();
+        String actual = Baron.baronHarvestTuesday();
     }
 }
